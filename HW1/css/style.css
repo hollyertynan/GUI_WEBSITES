@@ -1,0 +1,123 @@
+/*
+File: box.html
+GUI Assignment: First Web Page
+Tynan Hollyer, UMass Lowell Computer Science
+tynan_hollyer@student.uml.edu
+Updated by TH on 9/7/2021 at 8:58 AM
+
+Description: Basic HTML, CSS website for HW1
+
+Credit:
+Proper Documentation copied from
+HW 1, Part 2, Author: Wenjin Zhou
+
+Help from: https://www.w3schools.com/
+*/
+
+body {
+font-family: "Courier New", Arial;
+background-color: #ead1dc;
+color: white;
+text-align: center;
+}
+
+h1 {
+background-color: #dfa6a6;
+opacity: 1.0;
+padding: 5%;
+}
+
+h2 {
+background-color: #494949;
+opacity: 1.0;
+}
+
+p {
+background-color: black;
+padding: 6%;
+}
+
+p.one {
+background-color: black;
+opacity: 1.0;
+}
+
+p.two {
+background-color: #494949;
+opacity: 1.0;
+}
+
+p.three {
+background-color: black;
+text-align: center;
+opacity: 1.0;
+}
+
+
+img {
+width: 50%;
+height: auto;
+opacity: 1.0;
+}
+
+table {
+background-color: #494949;
+opacity: 1.0;
+width: 80%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+td {
+border-style: groove;
+}
+
+/*
+These a.links are used specifically for the links to other pages
+at the top of every page.
+*/
+
+a.links {
+font-family: "Courier New", Arial;
+background-color: #dfa6a6;
+color: white;
+border-style: solid;
+border-color: transparent;
+text-decoration: none;
+padding: 1%;
+}
+
+a.links:active {
+	background-color: #ead1dc;
+	text-decoration: none;
+	color: transparent;
+}
+
+a.links:link { text-decoration: none; }
+a.links:visited { text-decoration: none; }
+a.links:hover { text-decoration: none; }
+
+/*
+This was going to be used for aesthetic purposes
+for the links, but I've left it out for now.
+*/
+
+td.links {
+	border-style: solid;
+	border-color: white;
+	background-color: #dfa6a6;
+}
+
+td.links:active {
+	background-color: #ead1dc;
+}
+
+/*
+Used for the iframes in the music tab, taken directly
+from the embed links at youtube.com
+*/
+iframe {
+	width: 50%;
+	height: 100%;
+}

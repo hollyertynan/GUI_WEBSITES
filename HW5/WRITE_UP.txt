@@ -1,0 +1,35 @@
+Implemented Features:
+
+1. Random (unweighted) tile distribution.
+	The tiles are randomly selected for you from the pool of all tiles.
+
+2. The letter tiles can be dragged and dropped onto game tiles.
+
+3. The page can identify which letter is dropped onto which scrabble square.
+
+4. The bard includes two bonus double word squares.
+
+5. The score is tallied correctly with bonus squares included.
+
+6. You can keep playing until you run out of tiles or have decided to restart.
+
+7. After submitting a word the board clears and allows you to play another card.
+
+8. Score can be kept as the total score until you completely restart the game.
+
+9. The tiles can be dragged from teh rack to the scrabble bard and will bounce back to the rack.
+
+10. The user can always restart the game. 
+
+
+The tiles pulled from a pool of all tiles. Every time a tile is placed
+on your board, they are removed from the pool and will not be given again
+until the game is reset. 
+
+The points are kept track of as you place them on the board. 
+
+The total points are also kept track of as you submit words placed on the board.
+
+The amount of tiles left are given to show you how many more turns you can take.
+
+You can drag the tiles onto the board, which takes the point score from the tiles and can double your word score if you pass over the double word score spaces. 

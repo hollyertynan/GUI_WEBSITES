@@ -1,0 +1,1 @@
+Note that the original image files are not all the same size.  The sizes of the images displayed here were normalized to 50 pixels wide using CSS.

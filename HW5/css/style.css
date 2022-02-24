@@ -1,0 +1,32 @@
+/*
+
+File: style.css
+GUI Assignment: Creating Scrabble
+Tynan Hollyer, UMass Lowell Computer Science
+tynan_hollyer@student.uml.edu
+Updated by TH on 12/16/2021 at 10:25 PM
+
+Description: Website HTML file. 
+
+Credit:
+Proper Documentation copied from
+HW 1, Part 2, Author: Wenjin Zhou
+
+Help from: https://www.w3schools.com/
+
+Other help from: 
+https://jesseheines.com/~heines/91.461/91.461-2015-16f/461-assn/Scrabble_Tiles.html
+
+*/
+
+.spaces {
+    width: 12%;
+}
+
+.tiles {
+    width: 12%;
+}
+
+.buttonSize {
+    width: 100%;
+}
